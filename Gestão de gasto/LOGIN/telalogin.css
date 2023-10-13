@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f8ff;
+}
+.container h1 {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.box {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(233, 233, 233);
+  width: 400px;
+  padding: 35px 10px;
+  border-radius: 20px;
+  margin: auto auto;
+}
+.box label {
+  width: 100%;
+  display: block;
+}
+.box input {
+  width: 80%;
+  display: block;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(105, 105, 105);
+  margin: 5px 0px 15px 0px;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.box button {
+  margin: auto auto;
+  background-color: rgb(0, 84, 95);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 16px;
+  color: rgb(255, 255, 255);
+  padding: 10px 90px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+}
+.box button:hover {
+  background-color: rgb(0, 113, 128);
+}
+#cadastro {
+  margin: auto auto;
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+#cadastro:hover {
+  color: #f00;
+}
